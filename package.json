@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test nyc mocha --timeout 100000 --require @babel/register --exit --coverage --colors -i -u"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Alpha1202/Youth_Awards-node-backend/issues"
   },
-  "homepage": "https://github.com/Alpha1202/Youth_Awards-node-backend#readme"
+  "homepage": "https://github.com/Alpha1202/Youth_Awards-node-backend#readme",
+  "devDependencies": {
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1"
+  }
 }
