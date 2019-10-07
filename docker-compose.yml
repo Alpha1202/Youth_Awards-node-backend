@@ -1,0 +1,19 @@
+version: '1.0.0'
+services:
+  api:
+    image: youth-awards-api
+    build: .
+    networks:
+      - backend
+    ports:
+      - "8080:8080"
+
+  web-cli:
+    image: youth-awards-api
+    networks:
+      - backend
+    command: sh
+
+networks:
+  backend:
+    driver: bridge
