@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && node lib/server",
+    "start:dev": "nodemon --exec babel-node src/server",
     "test": "NODE_ENV=test nyc mocha --timeout 100000 --require @babel/register --exit --coverage --colors -i -u"
   },
   "repository": {
@@ -19,6 +21,19 @@
   "homepage": "https://github.com/Alpha1202/Youth_Awards-node-backend#readme",
   "devDependencies": {
     "mocha": "^6.2.1",
+    "nodemon": "^1.19.3",
     "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "@rama41222/node-logger": "^1.0.1",
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   }
 }
