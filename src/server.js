@@ -5,7 +5,7 @@ const { log, ExpressAPILogMiddleware } = require('@rama41222/node-logger');
 
 const config = {
     name: 'youth-award-api',
-    port: 5000,
+    port: process.env.PORT || 5000,
     host: '127.0.0.1',
 };
 
