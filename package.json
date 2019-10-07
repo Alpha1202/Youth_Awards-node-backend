@@ -1,0 +1,20 @@
+{
+  "name": "Youth_Awards-node-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alpha1202/Youth_Awards-node-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alpha1202/Youth_Awards-node-backend/issues"
+  },
+  "homepage": "https://github.com/Alpha1202/Youth_Awards-node-backend#readme"
+}
