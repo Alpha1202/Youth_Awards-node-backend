@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Alpha1202/Youth_Awards-node-backend#readme",
   "devDependencies": {
-    "mocha": "^6.2.1",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.3",
     "nyc": "^14.1.1"
   },
